@@ -1,0 +1,5 @@
+[[headers]]
+  for = "/*.wasm"
+  [headers.values]
+    Content-Type = "application/wasm"
+    X-Content-Type-Options = "nosniff"
