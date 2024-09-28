@@ -3,7 +3,7 @@ const contentToCache = [
     "Build/webgame.loader.js",
     "Build/webgame.framework.js",
     "Build/webgame.data",
-    "Build/webgame.wasm",
+    "https://ff-desktop-clients.s3.amazonaws.com/UnityGame/Test/Build/webgame.wasm",
     "TemplateData/style.css"
 
 ];
