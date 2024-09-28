@@ -57,11 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/webgame.loader.js";
+      //var loaderUrl = buildUrl + "/webgame.loader.js";
+      var loaderUrl = buildUrl + "https://ff-desktop-clients.s3.amazonaws.com/UnityGame/Test/Build/webgame.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/webgame.data",
-        frameworkUrl: buildUrl + "/webgame.framework.js",
+        //dataUrl: buildUrl + "/webgame.data",
+        //frameworkUrl: buildUrl + "/webgame.framework.js",
+        
+        dataUrl: "https://ff-desktop-clients.s3.amazonaws.com/UnityGame/Test/Build/webgame.data",
+        frameworkUrl: "https://ff-desktop-clients.s3.amazonaws.com/UnityGame/Test/Build/webgame.framework.js",
         codeUrl: "https://ff-desktop-clients.s3.amazonaws.com/UnityGame/Test/Build/webgame.wasm",
         //codeUrl: buildUrl + "/webgame.wasm",
         streamingAssetsUrl: "StreamingAssets",
